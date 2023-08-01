@@ -12,8 +12,7 @@ func main() {
 	var writer *bufio.Writer = bufio.NewWriter(os.Stdout)
 	defer writer.Flush()
 
-	var year int
-	year = 1
+	var year = 1
 
 	fmt.Fscanln(reader, &E, &S, &M)
 
